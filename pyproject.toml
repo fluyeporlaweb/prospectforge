@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "prospectforge"
+version = "0.1.0"
+description = "Open-source B2B lead pipeline: Apify discovery, LLM qualification, outreach drafts."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Fluye", email = "bot@fluyeporlaweb.com" }]
+keywords = ["b2b", "lead-generation", "outreach", "apify", "llm", "cli"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = [
+  "typer>=0.12.0",
+  "pydantic>=2.6.0",
+  "email-validator>=2.1.0",
+  "apify-client>=1.7.0",
+  "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+  "mypy>=1.10.0",
+]
+
+[project.scripts]
+prospectforge = "prospectforge.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/fluyeporlaweb/prospectforge"
+Repository = "https://github.com/fluyeporlaweb/prospectforge"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/prospectforge"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "docs", "README.md", "LICENSE", "pyproject.toml"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]
+"src/prospectforge/cli.py" = ["B008"]
+
+[tool.mypy]
+python_version = "3.11"
+check_untyped_defs = true
+disallow_untyped_defs = true
+warn_unused_ignores = true
+no_implicit_optional = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+  "apify: optional live smoke test that calls a real Apify Actor (skipped without APIFY_TOKEN)",
+]

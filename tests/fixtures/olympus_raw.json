@@ -1,0 +1,41 @@
+[
+  {
+    "id": "oly-fixture-1",
+    "name": "Ola Fake",
+    "personTitle": "Founder",
+    "email": "ola.founder@example.com",
+    "department": "Executive",
+    "seniority": "founder",
+    "personCountry": "Spain",
+    "companyName": "Fake Olympus SL",
+    "companyDomain": "fakeolympus.example",
+    "companyEmployeeSize": "11 - 50",
+    "industry": "Software",
+    "linkedinUrl": "https://www.linkedin.com/in/fake-ola"
+  },
+  {
+    "id": "oly-fixture-2",
+    "fullName": "Pablo Fake",
+    "title": "CTO",
+    "email": null,
+    "personCountry": "Spain",
+    "company": "Fake Olympus Labs",
+    "websiteDomain": "https://fakeolympuslabs.example",
+    "companyEmployeeSize": "51 - 200",
+    "industry": "Software"
+  },
+  {
+    "id": "oly-fixture-3",
+    "name": "Quinn Fake",
+    "personTitle": "Head of Sales",
+    "email": "fixture.quinn.sales@yahoo.com",
+    "department": "Sales - Marketing",
+    "seniority": "head",
+    "personCountry": "United States",
+    "companyName": "Fake US Sales Co",
+    "companyDomain": "fakeussales.example",
+    "companyEmployeeSize": "201 - 500",
+    "industry": "Professional Services",
+    "linkedinUrl": "https://www.linkedin.com/in/fake-quinn"
+  }
+]

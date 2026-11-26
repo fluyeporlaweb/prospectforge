@@ -1,0 +1,43 @@
+[
+  {
+    "id": "b2b-fixture-1",
+    "name": "Ana Fake",
+    "title": "Founder",
+    "email": "ana.founder@example.com",
+    "company": "FakeSoft SL",
+    "companyDomain": "https://www.fakesoft.example/",
+    "companySize": "11-50",
+    "industry": "Software",
+    "country": "es",
+    "city": "Madrid",
+    "linkedinUrl": "https://www.linkedin.com/in/fake-ana",
+    "phoneOnRecord": true,
+    "seniority": "founder"
+  },
+  {
+    "id": "b2b-fixture-2",
+    "fullName": "Ben Fake",
+    "jobTitle": "CTO",
+    "email": "fixture.ben.cto@yahoo.com",
+    "companyName": "FakeWorks",
+    "website": "https://fakeworks.example",
+    "employees": 25,
+    "industry": "Software",
+    "countryCode": "us",
+    "linkedin": "https://www.linkedin.com/in/fake-ben",
+    "seniorityLevel": "c_suite"
+  },
+  {
+    "id": "b2b-fixture-3",
+    "name": "Cara Fake",
+    "title": "Marketing Manager",
+    "email": null,
+    "company": "Fake Agency",
+    "companyDomain": "fakeagency.example",
+    "companySize": "51-200",
+    "industry": "Marketing",
+    "country": "us",
+    "city": "Austin",
+    "phone": null
+  }
+]
