@@ -5,10 +5,10 @@ Use these values when publishing or updating the repository.
 ## Description
 
 ```text
-Open-source B2B lead pipeline: discover with Apify, qualify against your ICP, draft outreach. Dry-run by default. No auto-send.
+Open-source B2B lead pipeline: discover leads with Apify, qualify against your ICP with written reasons, draft outreach. Dry-run by default. Never sends email.
 ```
 
-Length: 127 characters (limit: 132).
+Length: 159 characters (GitHub About limit: 350).
 
 ## Topics
 
@@ -17,17 +17,18 @@ lead-generation
 b2b
 outreach
 apify
-osint
-sales
+llm
 cli
 python
 open-source
-apollo-alternative
+sales
 icp
-email
+marketing-tools
+lead-qualification
+prospecting
 ```
 
-Do not add `linkedin-scraper`. The project uses B2B contact-database Actors on Apify and does not scrape LinkedIn.
+Do not add `email` (the tool never sends email), `osint`, `apollo-alternative`, or `linkedin-scraper`. The project uses B2B contact-database Actors on Apify and does not scrape LinkedIn.
 
 ## Suggested settings
 
@@ -40,3 +41,7 @@ Do not add `linkedin-scraper`. The project uses B2B contact-database Actors on A
 ## Social preview
 
 Upload `assets/banner.png` (1280x640) as the repository social preview image.
+
+## Sponsor
+
+Collaborations and sponsorships: https://fluyeporlaweb.com/patrocina or colab@fluyeporlaweb.com. Do not publish prices in this repository.

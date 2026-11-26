@@ -260,6 +260,10 @@ No email sending is planned for v1.
 
 ---
 
+## Sponsor
+
+prospectforge is free and open source. To sponsor the project or start a collaboration, write to [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) or visit [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina).
+
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, the default offline test command, and commit conventions. Please never include tokens, `.env` files, or personal data in issues or pull requests.
@@ -272,12 +276,12 @@ MIT. See [LICENSE](LICENSE).
 
 ## Repository metadata
 
-Suggested description (132 characters or fewer):
+Suggested description:
 
-> Open-source B2B lead pipeline: discover with Apify, qualify against your ICP, draft outreach. Dry-run by default. No auto-send.
+> Open-source B2B lead pipeline: discover leads with Apify, qualify against your ICP with written reasons, draft outreach. Dry-run by default. Never sends email.
 
 Suggested topics:
 
-`lead-generation` · `b2b` · `outreach` · `apify` · `osint` · `sales` · `cli` · `python` · `open-source` · `apollo-alternative` · `icp` · `email`
+`lead-generation` · `b2b` · `outreach` · `apify` · `llm` · `cli` · `python` · `open-source` · `sales` · `icp` · `marketing-tools` · `lead-qualification` · `prospecting`
 
 The same metadata is kept in [docs/GITHUB.md](docs/GITHUB.md).
