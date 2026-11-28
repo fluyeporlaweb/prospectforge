@@ -1,0 +1,25 @@
+# prospectforge
+
+> Open-source B2B lead pipeline: discover leads with Apify, qualify them against your ICP with written reasons, and draft outreach. Dry-run by default. Never sends email.
+
+Repository: https://github.com/fluyeporlaweb/prospectforge
+License: MIT (https://github.com/fluyeporlaweb/prospectforge/blob/main/LICENSE)
+Sponsor: https://fluyeporlaweb.com/patrocina?src=github
+Email: colab@fluyeporlaweb.com
+
+## What this is
+
+A Python CLI and library that builds a B2B lead list, scores each contact against your ideal customer profile with written reasons, and prepares outreach drafts. It stops at drafts. It never sends email. Live discovery uses maintained Apify Actors; dry-run and fixture-based tests work without spending credits.
+
+## Docs
+
+- README: https://github.com/fluyeporlaweb/prospectforge/blob/main/README.md
+- Contributing: https://github.com/fluyeporlaweb/prospectforge/blob/main/CONTRIBUTING.md
+
+## Also from fluyeporlaweb
+
+- awesome-design-stack: https://github.com/fluyeporlaweb/awesome-design-stack
+- ai-agent-tools: https://github.com/fluyeporlaweb/ai-agent-tools
+- Website: https://fluyeporlaweb.com?src=github
+- X: https://x.com/fluyeporlaweb
+- Telegram: https://t.me/fluyeporlaweb

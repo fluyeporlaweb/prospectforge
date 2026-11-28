@@ -9,6 +9,9 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-3EE0C5.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-7AA2FF.svg)](pyproject.toml)
 [![CI](https://github.com/fluyeporlaweb/prospectforge/actions/workflows/ci.yml/badge.svg)](https://github.com/fluyeporlaweb/prospectforge/actions/workflows/ci.yml)
+[![Last commit](https://img.shields.io/github/last-commit/fluyeporlaweb/prospectforge.svg)](https://github.com/fluyeporlaweb/prospectforge/commits/main)
+
+Maintained by [fluyeporlaweb](https://fluyeporlaweb.com?src=github) · [X @fluyeporlaweb](https://x.com/fluyeporlaweb) · [Telegram](https://t.me/fluyeporlaweb)
 
 If this saves you time, a star helps other builders find it.
 
@@ -260,9 +263,19 @@ No email sending is planned for v1.
 
 ---
 
+## Seen in our videos
+
+We review unusual websites, GitHub repos and web apps in short videos. The write-ups and links live on [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github). Follow along on [X](https://x.com/fluyeporlaweb) and [Telegram](https://t.me/fluyeporlaweb).
+
 ## Sponsor
 
-prospectforge is free and open source. To sponsor the project or start a collaboration, write to [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) or visit [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina).
+prospectforge is free and open source. To sponsor the project or start a collaboration, write to [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) or visit [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina?src=github).
+
+## More from fluyeporlaweb
+
+- [awesome-design-stack](https://github.com/fluyeporlaweb/awesome-design-stack) — curated web design resources, in English and Spanish.
+- [ai-agent-tools](https://github.com/fluyeporlaweb/ai-agent-tools) — curated directory of open-source tools for AI agents.
+- Website: [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github)
 
 ## Contributing
 
@@ -272,16 +285,9 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for developmen
 
 MIT. See [LICENSE](LICENSE).
 
----
+## Links
 
-## Repository metadata
-
-Suggested description:
-
-> Open-source B2B lead pipeline: discover leads with Apify, qualify against your ICP with written reasons, draft outreach. Dry-run by default. Never sends email.
-
-Suggested topics:
-
-`lead-generation` · `b2b` · `outreach` · `apify` · `llm` · `cli` · `python` · `open-source` · `sales` · `icp` · `marketing-tools` · `lead-qualification` · `prospecting`
-
-The same metadata is kept in [docs/GITHUB.md](docs/GITHUB.md).
+- Website: [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github)
+- X: [@fluyeporlaweb](https://x.com/fluyeporlaweb)
+- Telegram: [t.me/fluyeporlaweb](https://t.me/fluyeporlaweb)
+- Email: [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com)
